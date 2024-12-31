@@ -1,4 +1,4 @@
-package vn.hoidanit.jobhunter.service.error;
+package vn.hoidanit.jobhunter.service.util.error;
 
 import java.util.List;
 import java.util.Optional;
@@ -46,5 +46,9 @@ public class UserService {
             user = this.userRepository.save(user);
         }
         return user;
+    }
+
+    public User handleGetUserByUsername(String user) {
+        return this.userRepository.findByEmail(user);
     }
 }
