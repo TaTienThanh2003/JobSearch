@@ -1,4 +1,4 @@
-package vn.hoidanit.jobhunter.service.util;
+package vn.hoidanit.jobhunter.util;
 
 import java.time.Instant;
 import java.time.temporal.ChronoUnit;

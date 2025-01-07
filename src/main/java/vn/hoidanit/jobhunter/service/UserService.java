@@ -1,4 +1,4 @@
-package vn.hoidanit.jobhunter.service.util.error;
+package vn.hoidanit.jobhunter.service;
 
 import java.util.List;
 import java.util.Optional;
